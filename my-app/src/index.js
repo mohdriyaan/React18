@@ -4,30 +4,30 @@ import ReactDOM  from "react-dom/client"
 import "./index.css"
 // Think Of Component As Function
 // JSX Syntax 
-// function Main(){
-//     return (
-//     <React.Fragment>
-//     <div>
-//         <h1>My First Component</h1><br></br>
-//         <h3>Hello World</h3>
-//         <ul>
-//             <li>
-//                 <a href="#">Hello People</a>
-//             </li>
-//         </ul>
-//     </div>
-//     <h3>Hello People</h3>
-//     <input type="text" name="" id=""/>
-//     </React.Fragment>
-//     )
-// } 
+function Main(){
+    return (
+    <React.Fragment>
+    <div>
+        <h1>My First Component</h1><br></br>
+        <h3>Hello World</h3>
+        <ul>
+            <li>
+                <a href="#">Hello People</a>
+            </li>
+        </ul>
+    </div>
+    <h3>Hello People</h3>
+    <input type="text" name="" id=""/>
+    </React.Fragment>
+    )
+} 
 
 // Nested Components
-// function Greeting(){
-//     return <div>
+//   return <div>
 //         <Person/>
 //         <Message/>
-//     </div>
+// </div>/ function Greeting(){
+// //   
 // }
 
 // function Person(){
